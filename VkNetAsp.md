@@ -134,7 +134,7 @@ private List<FriendsModel> FriendList()
     ViewData["Title"] = "Login Page | VK";
 }
         <form asp-action="Index" method="post">
-            <div asp-validation-summary="All" class="error"></div>
+            <div asp-validation-summary="All"></div>
             <input type="text" asp-for="Email" placeholder="Email" class="text_decoration" />
             <input type="password" asp-for="Password" placeholder="Password" class="text_decoration" />
             <button type="submit" class="button">Войти</button>
