@@ -64,7 +64,7 @@ private string ReadCookies(string cookie_key)
         {
             VkSingleton.Api.Authorize(new ApiAuthParams
             {
-                ApplicationId = 6319657,
+                ApplicationId = , //Ваш ID приложения.
                 Login = login.Email,
                 Password = login.Password,
                 Settings = Settings.All
